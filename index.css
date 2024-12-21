@@ -1,0 +1,20 @@
+.oncelik{
+    z-index: 9999;
+}
+.boyut {
+    width: 100%; /* Genişliği tamamen kapsar */
+    height: 250px; /* Yüksekliği sabitler */
+}
+  
+.boyut img {
+    width: 100%; /* Resmin genişliği kapsayıcıya uyumlu olur */
+    height: 100%; /* Yükseklik, kapsayıcıya uyumlu olur */
+    object-fit: cover; /* Resmin kapsayıcıya tam uymasını sağlar, gerekirse kırpar */
+}
+  
+  
+.img-fluid {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Resmin kutuya sığmasını sağlar */
+}
